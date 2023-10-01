@@ -20,7 +20,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure style={{border:"2px solid green"}} as="nav" className="bg-gray-800 sticky top-0 z-50">
+    <Disclosure as="nav" className="bg-[#3c3f45] sticky top-0 z-50 ">
       {({ open }) => (
         <>
          {/* <div className="sticky top-5 z-50"> */}
