@@ -19,12 +19,12 @@ export default function Signup() {
     formState: { errors },
   } = useForm();
 
-// useEffect(() => {
-//   if(user){
-//     router.push("/")
-//     console
-//   }
-// }, [user])
+useEffect(() => {
+  if(user){
+    router.push("/")
+    console
+  }
+}, [user])
 
 
   return (
